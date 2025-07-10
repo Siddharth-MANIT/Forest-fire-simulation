@@ -1,9 +1,10 @@
-# 🔍 Input Raster Stack Format
+#  Input Raster Stack Format
 
-## ✅ Input Channels (X)
+## Input Channels (X)
 
 | Layer            | Description                  |
 |------------------|------------------------------|
+| Dem              | From Bhuvan                  |
 | Slope            | From DEM                     |
 | Aspect           | From DEM                     |
 | Temperature      | From ERA5                    |
@@ -15,10 +16,10 @@
 - Format: GeoTIFF  
 - Resolution: 30m  
 - Projection: EPSG:4326 (WGS 84)  
-- Final stacked shape: (256, 256, 7)
+- Final stacked shape: (1194,676,52)
 
-## 🟩 Output Label (Y)
+##  Output Label (Y)
 
 - Fire/No-Fire binary mask  
-- Shape: (256, 256, 1)  
+- Shape: (1194,676, 1)  
 - Derived from VIIRS fire points  
